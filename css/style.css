@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+}
+
+html {
+    font-size: 18px;
+}
+
+
+/* Header + Nav */
+.header-container {
+    background: url('../image/bg-hero-desktop.svg') var(--very-pale-cyan);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav img {
+    width: 15%;
+    height: 2rem;
+}
+
+.nav .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    background: #fff;
+    /* width: 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--grayish-blue);
+    padding: .8rem 3rem;
+    border-radius: 50px;
+    box-shadow: var(--grayish-blue) .02rem .02rem .5rem .02rem;
+}
+
+.nav a:hover,
+.nav a:focus {
+    opacity: 0.8;
+}
+
+/* Header Content */
+.header-content {
+    display: flex;
+    padding: 3rem 0;
+}
+
+.header-content img {
+    width: 50%;
+}
+
+.contents {
+    width: 50%;
+    padding: 6rem 1rem;
+}
+
+.contents p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contents a {
+    text-decoration: none;
+}
+
+.contents-btn {
+    padding: 1rem 5rem;
+    background: var(--pink);
+    color: var(--very-pale-cyan);
+    border-radius: 50px;
+    box-shadow: var(--grayish-blue) .02rem .02rem .5rem .02rem;
+}
+
+.contents a:hover,
+.contents a:focus P {
+    opacity: 0.8;
+}
+
+/* Body Contents */
+.body-contents {
+    display: flex;
+    padding: 2rem 0;
+    /* width: 100%; */
+    /* height: 85%; */
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: var(--grayish-blue) .02rem .02rem .5rem .02rem;
+}
+
+.body-contents img {
+    width: 50%;
+    height: 80%;
+    padding: 0 2rem;
+}
+
+.body-content_A,
+.body-content_B,
+.body-content_C {
+    width: 50%;
+    padding: 10rem 3rem;
+}
+
+.body-content_A h2,
+.body-content_B h2,
+.body-content_C h2 {
+    margin-bottom: 1.2rem;
+}
+
+/* Community */
+.community {
+    display: block;
+    text-align: center;
+    width: 50%;
+    left: 0;
+    right: 0;
+    padding: 4rem 0;
+    z-index: 1;
+    position: absolute;
+    background: #fff;
+}
+
+.community h1 {
+    margin-bottom: 30px;
+}
+
+.community a {
+    text-decoration: none;
+}
+
+.community a:hover,
+.community a:focus {
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background: var(--very-dark-cyan);
+    color: #fff;
+    z-index: -1;
+    margin-top: 250px;
+    padding: 8rem;
+}
+
+.image_log {
+    width: 45%;
+}
+
+.img img {
+    height: 20px;
+}
+
+.lpe img {
+    height: 20px;
+    margin-top: 7px;
+}
+
+.lpe {
+    display: flex;
+}
+
+.lpe p {
+    margin: 9px 40px;
+}
+
+.locc p {
+    margin-left: 50px;
+}
+
+.llpe-awf-cbc-soc {
+    display: flex;
+    width: 100%;
+}
+
+.same {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.faq {
+    text-transform: uppercase;
+}
+
+.same a {
+    margin: 2px 0;
+    text-decoration: none;
+    color: #fff;
+    line-height: 2;
+}
+
+.same a:hover,
+.same a:focus {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.social i {
+    margin: 0 10px;
+    border: 1px solid white;
+    padding: .8rem;
+    border-radius: 50%;
+}
+
+.social i:hover,
+.social i:focus {
+    cursor: pointer;
+    color: var(--pink);
+}
+
+.awf_cbc_soc {
+    margin: 30px auto;
+}
+
+.copy {
+    margin: 30px;
+    width: 50%;
+}
+
+
+
